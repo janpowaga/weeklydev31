@@ -1,0 +1,126 @@
+.header__nav {
+  height: 9vh;
+}
+
+.header__nav--mobile {
+  justify-content: space-between;
+}
+
+.header__navlist {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20% 0 50% 20%;
+  box-sizing: border-box;
+  height: 100vh;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.header__navlist--item {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header__jumbo {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.header__title {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.section__about {
+  padding: 20% 5% 0 5%;
+}
+
+.section__skills {
+  padding: 20% 5% 0 5%;
+}
+
+.skills__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 5vw;
+  margin: 1vh 0;
+}
+
+.skills__bar {
+  height: 15px;
+}
+
+.service__card {
+  flex-direction: column;
+  padding: 20% 5% 0 5%;
+}
+
+.service__card__wrapper {
+  margin: 15px auto;
+  width: 90%;
+}
+
+.section__portfolio {
+  padding: 20% 5%;
+}
+
+.blog__wrapper {
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.blog__post {
+  margin: 2.5% 0;
+  width: 100%;
+  height: auto;
+}
+
+.section__stats {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 10% 15% 10%;
+  background-position: 20% 0;
+}
+
+.section__contact {
+  padding: 20% 5%;
+}
+
+.contact__form {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form__text,
+.form__email,
+.form__msg {
+  width: 90%;
+  height: 30px;
+}
+
+.form__msg {
+  height: 33vh;
+}
+
+.section__footer {
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__socialmedia {
+  width: 50%;
+  padding-top: 5%;
+}
+
+.footer__copyright {
+  padding: 5% 0;
+}
